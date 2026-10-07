@@ -61,17 +61,30 @@ nav ul a:hover {
 }
 
 .hero {
+    display: flex;
     width: 100%;
     height: 500px;
-    background-color: white;
+    background-color: black;
+    align-items: center;
 }
+div h1{
+    color : #fff;
+    font-size: 90px;
+    margin-top: -250px;
+}
+.life{
+    color:#034BFF;
+}
+.sign {
+    color :#C7F64A;
+}
+div h2{
+    color: #fff;
+    margin-top: 100px !important;
+    margin-right: 400px;
 
-.hero img {
-    width: 50%;
-    height: 100%;
-    display: block;
-    margin-left: auto;
 }
-div h1 {
-    color: #000000;
+div p{
+    color: #fff;
+    margin-top: 0 !important;
 }
