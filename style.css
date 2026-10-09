@@ -119,19 +119,83 @@ nav ul a:hover {
     height: 100%;
     object-fit: cover;
 }
-.itme1{
-    display: flex;
-    font-weight: bold;
-}
-.stastique{
+.stats {
     display: flex;
     justify-content: space-between;
-    white-space: nowrap;
+    align-items: center;
+    background: white;
+    padding: 10px 10px;
+    gap: 20px;
 }
-.logo2{
-    color: #034BFF;
-    white-space: nowrap;
-}
-.sta{
+
+.stat {
+    flex: 1;
     display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+    border-right: 1px solid #9ca3af;
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat h2 {
+    font-size: 32px;
+    color: #0b1220;
+    margin-bottom: 5px;
+}
+
+.stat p {
+    font-size: 13px;
+    color: #526078;
+}
+.icon {
+    font-size: 30px;
+    font-weight:bold ;
+    color: #034BFF;
+}
+.text {
+    display: flex;
+
+}
+.photos {
+    flex:1;
+    display: flex;
+    transform: rotate(5deg);
+    display: relative;
+}
+.campus{
+    display: flex;
+}
+.p1 {
+    color: #034BFF;
+    font-size: 5px;
+    font-size: 10px;
+}
+.photos p{
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: -30px;
+    position: absolute;
+
+}
+div h2 {
+    font-size: x-large;
+}
+.campus a {
+    text-decoration: none;
+    background-color: #0059ff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: 0.3s;
 }
